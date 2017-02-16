@@ -1,0 +1,91 @@
+\documentclass[a4paper, 12pt]{article}
+
+% Change the default font
+\usepackage{kpfonts}
+\usepackage[T1]{fontenc}
+
+% Change the margins
+\usepackage{geometry}
+\newcommand{\margin}{3cm}
+\geometry{a4paper, top=\margin, left=\margin, right=\margin, bottom=\margin}
+
+%	Basics and headers
+\usepackage[norsk]{babel}
+\usepackage[utf8]{inputenc}
+
+% Graphics
+\usepackage{graphicx}
+
+ % Empty page style
+ \pagestyle{empty}
+ 
+ %Colors
+ \usepackage{xcolor}
+ \definecolor{ent3rfarge}{rgb}{0.29, 0.68, 0.86}
+ \definecolor{umber}{rgb}{0.39, 0.32, 0.28}
+ \definecolor{ultramarineblue}{rgb}{0.25, 0.4, 0.96}
+
+\begin{document}
+
+\begin{center}
+	\includegraphics[width=0.375\textwidth]{figs/ent3r_farge.jpg} \\
+	\vspace{2em}
+	\begin{minipage}{25em}
+		\begin{center}
+			ENT3R realfagstrening er et nasjonalt program i 
+			regi av Nasjonalt senter for Realfagsrekruttering.
+		\end{center}
+		
+	\end{minipage}
+	
+	
+	\vspace{5em}
+	Denne attesten bekrefter at
+	\vspace{2em}
+	
+	{\huge \itshape INSERTNAMEHERE} \\
+	\textcolor{ent3rfarge}{\Huge INSERTDOTSHERE} \\
+	\vspace{1em}
+	har deltatt på ENT3R Realfagstrening \\
+	
+	Universitetet i Bergen \\
+	Skoleåret 2016/2017
+	
+	\vspace{5em}
+	
+	\begin{minipage}{25em}
+		Gjennom ENT3R får elever undervisning i
+		realfag og hjelp til lekser. Formålet med ENT3R er å
+		gi unge økt mestringsfølelse og bedre kjennskap til
+		utdannings- og jobbmuligheter innen realfag.
+		For mer informasjon se ent3r.no.
+	\end{minipage}
+	
+	\vspace{6em}
+\end{center}
+\begin{minipage}{12em}
+	{\itshape Bergen, \today} \\
+	\textcolor{ent3rfarge}{\large - - - - - - - - - - - - - - - - } \\
+	Sted og dato
+\end{minipage}
+\hfill
+\begin{minipage}{12em}
+	\textcolor{ent3rfarge}{\large - - - - - - - - - - - - - - - - } \\
+	Utsteders Navn
+\end{minipage}
+\\
+
+
+
+\vfill
+\noindent
+\begin{minipage}[c]{\textwidth}
+	\includegraphics[width=0.25\textwidth]{figs/nsfr_logo.jpg}
+	\hfill
+	\includegraphics[width=0.25\textwidth]{figs/kd_logo.jpg}
+	\hfill
+	\includegraphics[width=0.15\textwidth]{figs/uib_logo.png}
+\end{minipage}
+
+
+\end{document}
