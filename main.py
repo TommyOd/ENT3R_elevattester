@@ -17,7 +17,7 @@ import mechanicalsoup
 USERNAME = r'email'
 PASSWORD = r'password'
 MIN_OPPMOTER = 8
-MIN_PROSENT = 80
+MIN_PROSENT = 50
 WEEKS = collections.defaultdict(lambda : None)
 WEEKS[2016] = [36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
 WEEKS[2017] = [4, 5, 6, 7]
@@ -227,19 +227,28 @@ def generate_attest(name):
     os.chdir(TEMP_PATH)    
     args = ['pdflatex.exe','-synctex=1','-interaction=nonstopmode','"{}".tex'.format(pdf_name)]
     subprocess.check_call(args, cwd=TEMP_PATH, stdout=subprocess.DEVNULL)
-
+    delete_files_by_extension(TEMP_PATH, ['tex', 'aux', 'gz', 'log'])
+    
     # Move the generated .pdf file
     before = os.path.join(TEMP_PATH, '{}.pdf'.format(pdf_name))
     after = os.path.join(GENERATED_PATH, '{}.pdf'.format(pdf_name))
     shutil.move(before, after)
     
-
-if __name__ == '__main__':
+def main():
     # Create a browser and log in
     browser = mechanicalsoup.Browser()
     login(browser)
     
+    # Copy 'figs' folder to temp directory
+    try:
+        shutil.rmtree(os.path.join(TEMP_PATH, r'figs'))
+    except:
+        pass
+    shutil.copytree(os.path.join(this_dir, r'template/figs'), 
+                    os.path.join(TEMP_PATH, r'figs'))
+    
     # Go through students
+    num = 1
     for url in yield_elev_urls(browser):
         name, oppmoter = get_name_oppmoter(url)
 
@@ -251,11 +260,19 @@ if __name__ == '__main__':
         prosent = round((oppmoter_tot/mulige)*100)
     
         if attest(oppmoter_tot, prosent):
-            print(name , 'får attest!')
+            out_str = 'Attest nr {} går til "{}".'.format(num, name)
+            print(out_str)
             generate_attest(name)
+            num += 1
+            if num >= 5:
+                break
             
-
+    shutil.rmtree(os.path.join(TEMP_PATH, r'figs'))
             
+            
+            
+if __name__ == '__main__':
+    main()        
     
 
 

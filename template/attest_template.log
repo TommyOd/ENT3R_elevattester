@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.11)  16 FEB 2017 20:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.7.11)  17 FEB 2017 09:13
 entering extended mode
 **attest_template.tex
 
-("C:\Users\Tommy\Google Drive\ENT3R UiB\Skoleåret_16_17\Attester\Elevattester_
-V17\template\attest_template.tex"
+("C:\Users\Tommy\Google Drive\Python_Workspace\ENT3R_elevattester\template\atte
+st_template.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -838,8 +838,8 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-("C:\Users\Tommy\Google Drive\ENT3R UiB\Skoleåret_16_17\Attester\Elevattester_
-V17\template\attest_template.aux")
+("C:\Users\Tommy\Google Drive\Python_Workspace\ENT3R_elevattester\template\atte
+st_template.aux")
 LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 28.
 LaTeX Font Info:    Try loading font information for OML+jkp on input line 28.
 
@@ -932,12 +932,12 @@ File: t1jkp.fd 2007/01/24 Fontinst v1.928 font definitions for T1/jkp.
 \MPnumerator=\count112
 \makeMPintoPDFobject=\count113
 \everyMPtoPDFconversion=\toks24
-) <figs/ent3r_farge.jpg, id=1, 119.7273pt x 55.1661pt>
+) <figs/ent3r_farge.jpg, id=1, 498.86375pt x 229.85875pt>
 File: figs/ent3r_farge.jpg Graphic file (type jpg)
 
 <use figs/ent3r_farge.jpg>
 Package pdftex.def Info: figs/ent3r_farge.jpg used on input line 31.
-(pdftex.def)             Requested size: 160.04675pt x 73.74876pt.
+(pdftex.def)             Requested size: 160.04675pt x 73.74219pt.
 LaTeX Font Info:    Try loading font information for OT1+jkp on input line 39.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\kpfonts\ot1jkp.fd"
@@ -971,48 +971,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--77
 
  []
 
-<figs/nsfr_logo.jpg, id=2, 284.5029pt x 47.4573pt>
+<figs/nsfr_logo.jpg, id=2, 1185.42876pt x 197.73875pt>
 File: figs/nsfr_logo.jpg Graphic file (type jpg)
- <use figs/nsfr_logo.jpg>
-Package pdftex.def Info: figs/nsfr_logo.jpg used on input line 83.
-(pdftex.def)             Requested size: 106.69783pt x 17.79788pt.
 
-<figs/kd_logo.jpg, id=3, 797.98125pt x 278.03876pt>
+<use figs/nsfr_logo.jpg>
+Package pdftex.def Info: figs/nsfr_logo.jpg used on input line 83.
+(pdftex.def)             Requested size: 106.69783pt x 17.79572pt.
+ <figs/kd_logo.jpg, id=3, 797.98125pt x 278.03876pt>
 File: figs/kd_logo.jpg Graphic file (type jpg)
- <use figs/kd_logo.jpg>
+
+<use figs/kd_logo.jpg>
 Package pdftex.def Info: figs/kd_logo.jpg used on input line 85.
 (pdftex.def)             Requested size: 106.69783pt x 37.17299pt.
-
-<figs/uib_logo.png, id=4, 542.025pt x 540.0175pt>
+ <figs/uib_logo.png, id=4, 542.025pt x 540.0175pt>
 File: figs/uib_logo.png Graphic file (type png)
- <use figs/uib_logo.png>
+
+<use figs/uib_logo.png>
 Package pdftex.def Info: figs/uib_logo.png used on input line 87.
 (pdftex.def)             Requested size: 64.01608pt x 63.77754pt.
-
-[1
+ [1
 
 {C:/Users/Tommy/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/To
-mmy/Google Drive/ENT3R UiB/Skoleåret_16_17/Attester/Elevattester_V17/template/
-figs/ent3r_farge.jpg> <C:/Users/Tommy/Google Drive/ENT3R UiB/Skoleåret_16_17/A
-ttester/Elevattester_V17/template/figs/nsfr_logo.jpg> <C:/Users/Tommy/Google Dr
-ive/ENT3R UiB/Skoleåret_16_17/Attester/Elevattester_V17/template/figs/kd_logo.
-jpg> <C:/Users/Tommy/Google Drive/ENT3R UiB/Skoleåret_16_17/Attester/Elevattes
-ter_V17/template/figs/uib_logo.png>]
-("C:\Users\Tommy\Google Drive\ENT3R UiB\Skoleåret_16_17\Attester\Elevattester_
-V17\template\attest_template.aux") ) 
+mmy/Google Drive/Python_Workspace/ENT3R_elevattester/template/figs/ent3r_farge.
+jpg> <C:/Users/Tommy/Google Drive/Python_Workspace/ENT3R_elevattester/template/
+figs/nsfr_logo.jpg> <C:/Users/Tommy/Google Drive/Python_Workspace/ENT3R_elevatt
+ester/template/figs/kd_logo.jpg> <C:/Users/Tommy/Google Drive/Python_Workspace/
+ENT3R_elevattester/template/figs/uib_logo.png>]
+("C:\Users\Tommy\Google Drive\Python_Workspace\ENT3R_elevattester\template\atte
+st_template.aux") ) 
 Here is how much of TeX's memory you used:
- 5036 strings out of 493921
- 62758 string characters out of 3144876
+ 5035 strings out of 493921
+ 62623 string characters out of 3144876
  115046 words of memory out of 3000000
- 8236 multiletter control sequences out of 15000+200000
- 48768 words of font info for 59 fonts, out of 3000000 for 9000
+ 8235 multiletter control sequences out of 15000+200000
+ 43714 words of font info for 58 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,6n,35p,289b,195s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/en
-c/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/k
-pfonts/jkpmit8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/kpfon
-ts/jkpmn8a.pfb>
-Output written on attest_template.pdf (1 page, 247978 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/
+8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmit8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/kpfonts/jkpmn8a.pfb>
+Output written on attest_template.pdf (1 page, 339238 bytes).
 PDF statistics:
  21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
