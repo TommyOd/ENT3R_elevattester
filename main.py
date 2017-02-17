@@ -234,12 +234,18 @@ def generate_attest(name):
     after = os.path.join(GENERATED_PATH, '{}.pdf'.format(pdf_name))
     shutil.move(before, after)
     
+def create_dir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
 def main():
     # Create a browser and log in
     browser = mechanicalsoup.Browser()
     login(browser)
     
     # Copy 'figs' folder to temp directory
+    create_dir(TEMP_PATH)
+    create_dir(GENERATED_PATH)
     try:
         shutil.rmtree(os.path.join(TEMP_PATH, r'figs'))
     except:
@@ -248,6 +254,7 @@ def main():
                     os.path.join(TEMP_PATH, r'figs'))
     
     # Go through students
+    return False
     num = 1
     for url in yield_elev_urls(browser):
         name, oppmoter = get_name_oppmoter(url)
@@ -264,8 +271,6 @@ def main():
             print(out_str)
             generate_attest(name)
             num += 1
-            if num >= 5:
-                break
             
     shutil.rmtree(os.path.join(TEMP_PATH, r'figs'))
             
