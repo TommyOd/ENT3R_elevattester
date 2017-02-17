@@ -22,6 +22,7 @@ Først og fremst må du ha Python og LaTeX på systemet ditt.
     *  Sett så årene og ukene det har vært grupper via `WEEKS` variabelen
 
 Åpne programmet Spyder (som er inkludert i [Anaconda](https://www.continuum.io/downloads)), åpne `main.py` i Spyder og trykk F5 eller den grønne pilen øverst for å kjøre programmet.
+Programmet lager en mappe som heter `generated`, og der havner attestene.
 
 ## Kjøretid
 På et prosjekt med ~470 elever og 67 genererte attester var kjøretiden 6min 7s.
