@@ -1,5 +1,9 @@
 ﻿# Elevattester til ENT3R - automatisk
 Programvaren bruker Python og LaTeX til å generere eleverattester. For å se hvordan dette ser ut, se filen `eksempel.pdf`.
+**Hvorfor er dette nyttig?**
+* Du kan generere hundrevis av attester *fort*, slå sammen PDF filene og printe ut i én omgang.
+* Du kan sende ut attestene til elevene digitalt i tillegg til å gi fysisk kopi.
+* Du kan endre `template/attest_template.tex` og få attesten slik som du vil ha den.
 ## Hvordan installere
 ### Python og LaTeX
 Først og fremst må du ha Python og LaTeX på systemet ditt.
